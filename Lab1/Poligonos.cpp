@@ -43,7 +43,7 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(400, 300);
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("Hello World");
+	glutCreateWindow("Display Polygon");
 	init();
 	glutDisplayFunc(displayPolygon);
 	glutMainLoop();
