@@ -1,0 +1,36 @@
+width = 42cm
+height = 31cm
+ndh = 546
+ndv = 434
+
+1. Resolución horizontal:
+
+	horiz_res = ndh/width = 546/42 = 13
+
+2. Tamaño de punto horizontal:
+
+	horiz_dot_size = width/ndh = 42/546 = 0,0769
+
+3. Resolución vertical:
+
+	vert_res = ndv/height = 434/31 = 14
+
+4. Tamaño de punto vertical:
+
+	vert_dot_size = height/ndv = 31/434 = 0,0714
+
+5. Total de puntos:
+
+	total_nr_dots = ndh*ndv = 546*434 = 236964
+
+6. Resolución de área:
+
+	area_res = total_nr_dots/(width*height) = 236964/(42*31) = 182
+
+7. Razón de aspecto gráfico:
+
+	aspect_ratio = vert_dot_size/horiz_dot_size = 0,0714/0,0769 = 0,9286
+
+8. Razón de aspecto físico:
+
+	physical_aspect_ratio = height/width = 31/42 = 0,7381

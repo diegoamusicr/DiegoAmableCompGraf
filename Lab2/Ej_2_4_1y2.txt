@@ -1,0 +1,2 @@
+Los ejercicios 2.4.1 y 2.4.2 fueron realizados en el anterior Laboratorio.
+(Ver ../Lab1/Poligonos.cpp)
